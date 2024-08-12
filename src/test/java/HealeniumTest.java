@@ -27,5 +27,7 @@ public class HealeniumTest  {
 	
     
         assertTrue(driver.getTitle().contains("Google"), "Google");
+        
+        driver.quit();
     }
 }
